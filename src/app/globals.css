@@ -1,26 +1,262 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.navbarbox {
+  margin-top: 18px;
+}
+
+.search {
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-right: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.searchbox {
+  margin-left: 400px;
+}
+
+.login {
+  padding: 8px 25px;
+  margin-right: 10px;
+  margin-left: 250px;
+  font-weight: bold;
+}
+
+.login:hover {
+  padding: 8px 25px;
+  margin-right: 10px;
+  margin-left: 250px;
+  font-weight: bold;
+  background-color: rgb(10, 10, 52);
+}
+
+.signup {
+  padding: 8px 20px;
+  font-weight: bold;
+}
+
+.signup:hover {
+  padding: 8px 20px;
+  font-weight: bold;
+  background-color: rgb(37, 2, 71);
+}
+
+
+.logo {
+  padding-top: 10px;
+}
+
+.footerlogotext {
+  padding-top: 25px;
+}
+
+.game {
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.gamecard {
+  margin-bottom: 30px;
+}
+
+
+
+.playbutton {
+  padding: 10px 10px;
+}
+
+.game-card {
+  margin: 10px 10px;
+}
+
+/* In your CSS */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.gamecards {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.iconimage {
+  margin: 10px;
+}
+
+.playbuttons {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.game-cards-create {
+  padding-top: 10px;
+}
+
+.game-padding-add-gamecards {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+  
+.game-page{
+  margin-top: 40px;
+  margin-left: 500px;
+  margin-bottom: 100px;
+}
+
+.game-card{
+  background-color: #093a6d;
+  margin-bottom: 100px;
+  margin-left: 50px;
+  border-radius: 20px;
+  width: 300px;
+  color: white;
+  height: 200px;
+}
+
+.snake{
+  border-radius:20px;
+  width: 300px;
+  height: 150px;
+}
+
+.game-dit{
+  justify-items: center;
+  grid-column: 5;
+}
+
+.game-container{
+  display: flex;
+}
+
+.games-card-container{
+  display: flex;
+}
+
+.krishna{
+  width: 200px;
+  height: 200px;
+}
+
+.snake-game{
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* videoplaycard */
+.game-video-card{
+  margin-top: 10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+}
+.new-game-card{
+  margin:10px ;
+}
+.game-iframe{
+  padding: 0 0;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.game-image{
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.game-video{
+  border-radius: 20px;
+}
+.game-title{
+  margin-top: 50px;
+}
+.new-game-title{
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+.game-2d-title{
+  margin-left: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.game-2d-image-container{
+  gap: 10px;
+}
+.game-image-card-2d{
+  margin-left: 60px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.game-2d-image3{
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+.game-2d-image4{
+  border-radius: 20px;
+}
+.gamecard-2d{
+  margin-left:50px;
+}
+
+/* globals.css */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;  /* for Internet Explorer, Edge */
+  scrollbar-width: none;     /* for Firefox */
+}
+.Gamecard2d{
+  margin-right: 20px;
+}
+.Featured-games{
+  margin-left: 25px;
+}
+.Random-game{
+  margin-left: 25px;
+}
+.multiplayer-game-card{
+  margin-left:40px ;
+}
+.Game-all-image{
+  border-radius: 20px;
+  height: 200px;
+  width: 500px;
+}
+.Game-all-card{
+  margin-bottom: 30px;
+}
+.Game-all-card-size{
+  margin-bottom: 20px;
+}
+.Game-pc-space{
+  margin-bottom: 20px;
 }

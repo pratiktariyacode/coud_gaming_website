@@ -1,0 +1,66 @@
+export const games = [
+    {
+      id: '1',
+      title: "Snake Game",
+      slug: "snake-game", // must match URL
+      iframeSrc: "https://pratiktariyacode.github.io/snake/",
+      img: "/snake.jpg",
+      video: "/snake.mp4",
+    },
+    {
+      id: '2',
+      title: "Tic Tac Toe Game",
+      slug: "tic-tac-toe-game",
+      iframeSrc: "https://pratiktariyacode.github.io/tictoc/",
+      img: "/tictactoe.jpg",
+      video: "/tic.mp4",
+    },
+    {
+      id: '3',
+      title: "Car Game",
+      slug: "Car-game",
+      iframeSrc: "https://pratiktariyacode.github.io/car/",
+      img: "/car_thum.jpg",
+      video: "/car.mp4",
+    },
+    {
+      id: '4',
+      title: "Ball Clicker Game",
+      slug: "Ball-Clicker-Game",
+      iframeSrc: "https://pratiktariyacode.github.io/Ball-Clicker-Game/",
+      img: "/ball.png",
+      video: "/ball.mp4",
+    },
+    {
+      id: '1',
+      title: "Snake Game",
+      slug: "snake-game", // must match URL
+      iframeSrc: "https://pratiktariyacode.github.io/snake/",
+      img: "/snake.jpg",
+      video: "/snake.mp4",
+    },
+    {
+      id: '2',
+      title: "Tic Tac Toe Game",
+      slug: "tic-tac-toe-game",
+      iframeSrc: "https://pratiktariyacode.github.io/tictoc/",
+      img: "/tictactoe.jpg",
+      video: "/tic.mp4",
+    },
+    {
+      id: '3',
+      title: "Car Game",
+      slug: "Car-game",
+      iframeSrc: "https://pratiktariyacode.github.io/car/",
+      img: "/car_thum.jpg",
+      video: "/car.mp4",
+    },
+    {
+      id: '4',
+      title: "Ball Clicker Game",
+      slug: "Ball-Clicker-Game",
+      iframeSrc: "https://pratiktariyacode.github.io/Ball-Clicker-Game/",
+      img: "/ball.png",
+      video: "/ball.mp4",
+    },
+  ];
